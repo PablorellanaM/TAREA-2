@@ -18,4 +18,9 @@ public class CalcTest {
         assertEquals(1, calculadora.resta(3, 2));
     }
 
+    @Test
+    public void testMultiplicacion() {
+        Calc calculadora = new Calc();
+        assertEquals(6, calculadora.multiplicacion(2, 3));
+    }
 }
