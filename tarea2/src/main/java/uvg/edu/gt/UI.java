@@ -11,7 +11,7 @@ public class UI {
         int n1 = scanner.nextInt();
         System.out.println("Ingrese el segundo número:");
         int n2 = scanner.nextInt();
-
+        // Ejemplo Cambio
         System.out.println("Elija una operación: 1. Suma 2. Resta 3. Multiplicación");
         int opcion = scanner.nextInt();
 
