@@ -6,7 +6,7 @@ public class UI {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Calc calculadora = new Calc();
-
+        //Ejemplo cambui ESTUDIANTE 2 
         System.out.println("Ingrese el primer número:");
         int n1 = scanner.nextInt();
         System.out.println("Ingrese el segundo número:");
