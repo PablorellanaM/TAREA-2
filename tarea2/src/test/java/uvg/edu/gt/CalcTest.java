@@ -11,4 +11,11 @@ public class CalcTest {
         Calc calculadora = new Calc();
         assertEquals(5, calculadora.suma(2, 3));
     }
+
+    @Test
+    public void testResta() {
+        Calc calculadora = new Calc();
+        assertEquals(1, calculadora.resta(3, 2));
+    }
+
 }
